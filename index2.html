@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Hogs </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="WhatsApp Image 2023-03-10 at 22.08.05.jpg">
+ 
+</head>
+<body>
+   <nav class="navbar background h-nav">
+    <ul class="navlist v-class">
+        <div class="logo"><img src="WhatsApp Image 2023-03-10 at 22.08.05.jpg" alt="logo"></div>
+        <h1 id="company"> Code Hogs</h1>
+        <li><a href="=#Home">Home</a></li>
+        <li><a href="=#FAQ">FAQ's</a></li>
+        <li><a href="=#Aboutus">About Us</a></li>
+        <li><a href="=#contacct">Contact</a></li>
+        <li><a href="=#gallery">Gallery</a></li>
+        <li><a href="=#register">Register</a></li>
+    </ul>
+    
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+   </nav>
+   <section class="background firstsection">
+    <div class="boxmain">
+        <div class="firsthalf">
+            <i><p class="textbig">Become A Code Hog! </p>
+            <p class="textsmall">We are here for you with our multi-skill developing Hackathon! Code Hog is an online platform designed to facilitate and organize hackathons, which are events where programmers, designers, and other tech enthusiasts come together to collaborate on innovative projects over a short period of time.
+
+              The website typically provides information about the hackathon, such as the theme, schedule, rules, and prizes. It may also offer registration and submission forms for participants to sign up and submit their projects.
+              
+              In addition to these practical features, a hackathon website may also include social elements, such as chat rooms or forums, where participants can communicate and collaborate with each other. Some hackathon websites also offer resources and tools to help participants during the event, such as code libraries, APIs, or tutorials.
+              
+              Overall, the purpose is to provide a central hub for participants to connect, collaborate, and showcase their skills and creativity.
+
+            </p>
+         
+                
+            </div>
+        </div>
+        <div class="secondhalf">
+         
+        </div>
+    </div>
+   </section>
+   <sectionmid class="mid">
+   <section class="secright">
+     <p class="sectiontag texthead"> VELOCITY 2023</p>
+     <style>
+      p {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 0px;
+        
+      }
+      #demo{
+        font-size: 200px
+        
+      }
+      </style>
+      </head>
+      <body>
+      
+      <p id="demo"></p>
+      
+      <script>
+    
+      var countDownDate = new Date("May 5, 2023 15:37:25").getTime();
+      
+      
+      var x = setInterval(function() {
+      
+        
+        var now = new Date().getTime();
+          
+        
+        var distance = countDownDate - now;
+          
+        
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+        
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+          
+      
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "TIME'S UP";
+        }
+      }, 1000);
+      </script>
+      </sectionmid>
+      <h1 class="timelime">Schedule</h1>
+
+<style>
+  * {
+    box-sizing: border-box;
+    z-index: 1111;
+  }
+  
+  body {
+    
+    font-family: Helvetica, sans-serif;
+    z-index: 1111;
+  }
+  
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1111;
+  }
+  
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:rgb(4, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1111;
+  }
+  
+  
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    z-index: 1111;
+  }
+  
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color:blueviolet;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1111;
+  }
+  
+
+  .left {
+    left: 0;
+    z-index: 1111;
+  }
+  
+  
+  .right {
+    left: 50%;
+    z-index: 1111; 
+  }
+  
+  
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid yellow;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    z-index: 1111;
+  }
+  
+  
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white  transparent transparent;
+    z-index: 1111;
+  }
+  
+  
+  .right::after {
+    left: -16px;
+    z-index: 1111;
+  }
+  
+ 
+  .content {
+    padding: 20px 30px;
+    background-color: yellow;
+    position: relative;
+    border-radius: 6px;
+    z-index: 1111;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    
+    .timeline::after {
+    left: 31px;
+    }
+    
+    
+    .container {
+    width: 75px;
+    padding-left: 70px;
+    padding-right: 15pxpx;
+   
+    }
+    
+    
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    
+    .right {
+    left: 0%;
+    }
+  }
+  </style>
+  </head>
+  <body>
+  <h1 class="timeline"></h1>
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>Reporting </h2>
+        <p>The parcipants must report by 9 am  on 5th MAY 2023</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Orientation</h2>
+        <p>Guidence by experienced seniors til 10 am </p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Beginning of Hackathon</h2>
+        <p>Coding Begins at 10 am</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>End of Hackathon</h2>
+        <p>Coding ends on the next day at 10 am </p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Judging</h2>
+        <p>Project will be examined by our guest judges</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Prize Distribution</h2>
+        <p>Awards and prize money would be awarded to the Winners</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+  
+     
+
+     <p class="sectionsubtag textsmall"></p>
+     <div class="thumnail">
+      
+     </div>
+   </section>
+
+   <section class="secleft">
+    <p class="sectiontag textbig"></p>
+    <p class="sectionsubtag textsmall"></p>
+    <div class="thumnail">
+      
+    </div>
+  </section>
+
+  <section class="secright">
+    <p class="sectiontag_textbig"> About VELOCITY 2023</p>
+    <p class="textsmallvelocity">Looking to flex your tech muscles and take on a challenge? Look no further than our upcoming hackathon!
+
+      Join us for a weekend of innovation, collaboration, and problem-solving. Whether you're an experienced programmer or just starting out, our hackathon is the perfect opportunity to test your skills and work on a project that could change the world.
+      
+      We'll provide the challenge, you bring your skills and creativity. Work with a team of like-minded individuals to develop a working prototype and present your project to a panel of judges. You'll have the chance to showcase your talent, network with other tech enthusiasts, and potentially even win a prize!
+      
+      So mark your calendar and get ready to hack your way to success. Don't miss out on this opportunity to learn, grow, and push the boundaries of what's possible in the world of technology. Register now to secure your spot and get ready to change the world.</p>
+    <div class="thumnail">
+      
+    </div>
+  </section>
+<sectionprize>
+  <h2>PRIZES</h2>
+  <li class="caps">1st Place Grand Prize,
+    Cryptocurrency logo,
+    Rs20,000 
+    Project promotion on our social media
+    </li>
+  <li class="caps">2nd Place Grand Prize,
+    Cryptocurrency logo,
+    Rs10,000 ,
+    Project promotion on our social media
+    </li>
+  <li class="caps"> 3rd Place Grand Prize,
+    Cryptocurrency logo,
+    Rs5,000 
+    Project promotion on our social media
+    </li>
+  <li class="caps">Category Prize - Tooling & Infrastructure,
+    Rs2000 
+    Project promotion on our social media</li>
+</sectionprize>
+
+
+
+  <sectionrq>
+    <h2>REQUIREMENTS</h2>
+    <ul>
+      <li class="system">Languages</li>
+    </ul>
+    <ol>
+      <li class="language">C++</li>
+      <li class="language">Python</li>
+      <li class="language">Java Script</li>
+      
+    </ol>
+  </sectionrq>
+
+  
+  <h2 class="register">Registration</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="team">Team Name:</label>
+        <input type="text" id="team" name="team">
+        <button type="submit">Register</button>
+
+
+      </form>
+    </section>
+  </main>
+
+
+    <sectionaboutus>
+      <h2>About Us</h2>
+      <ul>
+        <li class="bullet">Our objective</li>
+        <p class="us">Code Hogs conducts workshops and seminars with the aim of facilitating the exchange of information and ideas among students with the growth of the technical industry and provides continuing education as well as career advancement opportunities to its members</p>
+        <li class="bullet">Want to be a part of Code Hogs?</li>
+        <p class="us">CODE HOGS opens its Senior Committee (SCOMs) applications for third-year students (TEs). The Junior Committee (JCOMs) applications are open only for second-year students (SEs) .The application links for the same would be available on the website.</p>
+        <li class="bullet">How to register for the event?</li>
+        <p class="us">The registration links for our events would be available on our website and in our Instagram bio.</p>
+      </ul>
+    </sectionaboutus>
+    <sectionsponsor>
+      <h2>Our Sponsors</h2>
+      <div class="spo"><img src="WhatsApp Image 2023-03-11 at 13.54.07.jpg" alt=""></div>
+    </sectionsponsor>
+  
+  <footer class="background">
+    <p class="text-footer">
+    copyright &copy; 2027 - All right reserved
+</p>
+  </footer>
+  
+ 
+</body>
+
+</html>
